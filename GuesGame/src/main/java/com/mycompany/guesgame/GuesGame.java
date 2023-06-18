@@ -36,7 +36,7 @@ public class GuesGame {
       }
         Random random=new Random();
         int x = random.nextInt(20)+1;
-        System.out.println("Please Enter a Number: ");
+        System.out.println("Please Enter a Number between 0 and 20: ");
         int number=scanner.nextInt();
         
         int timesTried=0;
